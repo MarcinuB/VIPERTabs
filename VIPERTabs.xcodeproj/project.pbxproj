@@ -7,11 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441ED51F1DDB43D300B7309D /* TabBarModuleWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDFB1DDA7D4D0007E6C4 /* TabBarModuleWireFrame.swift */; };
+		441ED5201DDB43EF00B7309D /* TabBarModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDF91DDA7D4D0007E6C4 /* TabBarModuleView.swift */; };
+		441ED5211DDB441C00B7309D /* SecondModuleWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDEA1DDA7D4D0007E6C4 /* SecondModuleWireFrame.swift */; };
 		449DCDB61DDA756C0007E6C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDB51DDA756C0007E6C4 /* AppDelegate.swift */; };
 		449DCDB81DDA756C0007E6C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDB71DDA756C0007E6C4 /* ViewController.swift */; };
 		449DCDBB1DDA756C0007E6C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449DCDB91DDA756C0007E6C4 /* Main.storyboard */; };
 		449DCDBD1DDA756C0007E6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449DCDBC1DDA756C0007E6C4 /* Assets.xcassets */; };
 		449DCDC01DDA756C0007E6C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449DCDBE1DDA756C0007E6C4 /* LaunchScreen.storyboard */; };
+		449DCDFE1DDA7D4D0007E6C4 /* FirstModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDD01DDA7D4D0007E6C4 /* FirstModuleInteractor.swift */; };
+		449DCE001DDA7D4D0007E6C4 /* FirstModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDD31DDA7D4D0007E6C4 /* FirstModulePresenter.swift */; };
+		449DCE011DDA7D4D0007E6C4 /* FirstModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDD51DDA7D4D0007E6C4 /* FirstModuleProtocols.swift */; };
+		449DCE021DDA7D4D0007E6C4 /* FirstModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDD71DDA7D4D0007E6C4 /* FirstModuleView.swift */; };
+		449DCE031DDA7D4D0007E6C4 /* FirstModuleWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDD91DDA7D4D0007E6C4 /* FirstModuleWireFrame.swift */; };
+		449DCE061DDA7D4D0007E6C4 /* SecondModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDE11DDA7D4D0007E6C4 /* SecondModuleInteractor.swift */; };
+		449DCE081DDA7D4D0007E6C4 /* SecondModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDE41DDA7D4D0007E6C4 /* SecondModulePresenter.swift */; };
+		449DCE091DDA7D4D0007E6C4 /* SecondModule#Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDE61DDA7D4D0007E6C4 /* SecondModule#Protocols.swift */; };
+		449DCE0A1DDA7D4D0007E6C4 /* SecondModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDE81DDA7D4D0007E6C4 /* SecondModuleView.swift */; };
+		449DCE0E1DDA7D4D0007E6C4 /* TabBarModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDF21DDA7D4D0007E6C4 /* TabBarModuleInteractor.swift */; };
+		449DCE101DDA7D4D0007E6C4 /* TabBarModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDF51DDA7D4D0007E6C4 /* TabBarModulePresenter.swift */; };
+		449DCE111DDA7D4D0007E6C4 /* TabBarModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCDF71DDA7D4D0007E6C4 /* TabBarModuleProtocols.swift */; };
+		449DCE171DDA7D8F0007E6C4 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCE161DDA7D8F0007E6C4 /* AppDependencies.swift */; };
+		449DCE1B1DDA7DCB0007E6C4 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCE1A1DDA7DCB0007E6C4 /* RootWireframe.swift */; };
+		449DCE1E1DDA7E060007E6C4 /* TabBarViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DCE1D1DDA7E060007E6C4 /* TabBarViewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		449DCDBC1DDA756C0007E6C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449DCDBF1DDA756C0007E6C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		449DCDC11DDA756C0007E6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449DCDD01DDA7D4D0007E6C4 /* FirstModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstModuleInteractor.swift; sourceTree = "<group>"; };
+		449DCDD31DDA7D4D0007E6C4 /* FirstModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstModulePresenter.swift; sourceTree = "<group>"; };
+		449DCDD51DDA7D4D0007E6C4 /* FirstModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstModuleProtocols.swift; sourceTree = "<group>"; };
+		449DCDD71DDA7D4D0007E6C4 /* FirstModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstModuleView.swift; sourceTree = "<group>"; };
+		449DCDD91DDA7D4D0007E6C4 /* FirstModuleWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstModuleWireFrame.swift; sourceTree = "<group>"; };
+		449DCDE11DDA7D4D0007E6C4 /* SecondModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractor.swift; sourceTree = "<group>"; };
+		449DCDE41DDA7D4D0007E6C4 /* SecondModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondModulePresenter.swift; sourceTree = "<group>"; };
+		449DCDE61DDA7D4D0007E6C4 /* SecondModule#Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SecondModule#Protocols.swift"; sourceTree = "<group>"; };
+		449DCDE81DDA7D4D0007E6C4 /* SecondModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondModuleView.swift; sourceTree = "<group>"; };
+		449DCDEA1DDA7D4D0007E6C4 /* SecondModuleWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondModuleWireFrame.swift; sourceTree = "<group>"; };
+		449DCDF21DDA7D4D0007E6C4 /* TabBarModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModuleInteractor.swift; sourceTree = "<group>"; };
+		449DCDF51DDA7D4D0007E6C4 /* TabBarModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModulePresenter.swift; sourceTree = "<group>"; };
+		449DCDF71DDA7D4D0007E6C4 /* TabBarModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModuleProtocols.swift; sourceTree = "<group>"; };
+		449DCDF91DDA7D4D0007E6C4 /* TabBarModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModuleView.swift; sourceTree = "<group>"; };
+		449DCDFB1DDA7D4D0007E6C4 /* TabBarModuleWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarModuleWireFrame.swift; sourceTree = "<group>"; };
+		449DCE161DDA7D8F0007E6C4 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		449DCE1A1DDA7DCB0007E6C4 /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootWireframe.swift; path = Common/Wireframe/RootWireframe.swift; sourceTree = "<group>"; };
+		449DCE1D1DDA7E060007E6C4 /* TabBarViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +91,215 @@
 			isa = PBXGroup;
 			children = (
 				449DCDB51DDA756C0007E6C4 /* AppDelegate.swift */,
-				449DCDB71DDA756C0007E6C4 /* ViewController.swift */,
-				449DCDB91DDA756C0007E6C4 /* Main.storyboard */,
+				449DCE161DDA7D8F0007E6C4 /* AppDependencies.swift */,
 				449DCDBC1DDA756C0007E6C4 /* Assets.xcassets */,
-				449DCDBE1DDA756C0007E6C4 /* LaunchScreen.storyboard */,
+				449DCDC71DDA7D4D0007E6C4 /* Classes */,
 				449DCDC11DDA756C0007E6C4 /* Info.plist */,
+				449DCDBE1DDA756C0007E6C4 /* LaunchScreen.storyboard */,
+				449DCDB91DDA756C0007E6C4 /* Main.storyboard */,
+				449DCDB71DDA756C0007E6C4 /* ViewController.swift */,
 			);
 			path = VIPERTabs;
+			sourceTree = "<group>";
+		};
+		449DCDC71DDA7D4D0007E6C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				449DCE141DDA7D720007E6C4 /* Common */,
+				449DCDC81DDA7D4D0007E6C4 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		449DCDC81DDA7D4D0007E6C4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDC91DDA7D4D0007E6C4 /* FirstModule */,
+				449DCDDA1DDA7D4D0007E6C4 /* SecondModule */,
+				449DCDEB1DDA7D4D0007E6C4 /* TabBarModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		449DCDC91DDA7D4D0007E6C4 /* FirstModule */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDCF1DDA7D4D0007E6C4 /* Interactor */,
+				449DCDD21DDA7D4D0007E6C4 /* Presenter */,
+				449DCDD41DDA7D4D0007E6C4 /* Protocols */,
+				449DCDD61DDA7D4D0007E6C4 /* View */,
+				449DCDD81DDA7D4D0007E6C4 /* WireFrame */,
+			);
+			path = FirstModule;
+			sourceTree = "<group>";
+		};
+		449DCDCF1DDA7D4D0007E6C4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDD01DDA7D4D0007E6C4 /* FirstModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		449DCDD21DDA7D4D0007E6C4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDD31DDA7D4D0007E6C4 /* FirstModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		449DCDD41DDA7D4D0007E6C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDD51DDA7D4D0007E6C4 /* FirstModuleProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		449DCDD61DDA7D4D0007E6C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDD71DDA7D4D0007E6C4 /* FirstModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		449DCDD81DDA7D4D0007E6C4 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDD91DDA7D4D0007E6C4 /* FirstModuleWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		449DCDDA1DDA7D4D0007E6C4 /* SecondModule */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDE01DDA7D4D0007E6C4 /* Interactor */,
+				449DCDE31DDA7D4D0007E6C4 /* Presenter */,
+				449DCDE51DDA7D4D0007E6C4 /* Protocols */,
+				449DCDE71DDA7D4D0007E6C4 /* View */,
+				449DCDE91DDA7D4D0007E6C4 /* WireFrame */,
+			);
+			path = SecondModule;
+			sourceTree = "<group>";
+		};
+		449DCDE01DDA7D4D0007E6C4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDE11DDA7D4D0007E6C4 /* SecondModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		449DCDE31DDA7D4D0007E6C4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDE41DDA7D4D0007E6C4 /* SecondModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		449DCDE51DDA7D4D0007E6C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDE61DDA7D4D0007E6C4 /* SecondModule#Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		449DCDE71DDA7D4D0007E6C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDE81DDA7D4D0007E6C4 /* SecondModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		449DCDE91DDA7D4D0007E6C4 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDEA1DDA7D4D0007E6C4 /* SecondModuleWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		449DCDEB1DDA7D4D0007E6C4 /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDF11DDA7D4D0007E6C4 /* Interactor */,
+				449DCDF41DDA7D4D0007E6C4 /* Presenter */,
+				449DCDF61DDA7D4D0007E6C4 /* Protocols */,
+				449DCDF81DDA7D4D0007E6C4 /* View */,
+				449DCDFA1DDA7D4D0007E6C4 /* WireFrame */,
+			);
+			path = TabBarModule;
+			sourceTree = "<group>";
+		};
+		449DCDF11DDA7D4D0007E6C4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDF21DDA7D4D0007E6C4 /* TabBarModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		449DCDF41DDA7D4D0007E6C4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDF51DDA7D4D0007E6C4 /* TabBarModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		449DCDF61DDA7D4D0007E6C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDF71DDA7D4D0007E6C4 /* TabBarModuleProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		449DCDF81DDA7D4D0007E6C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDF91DDA7D4D0007E6C4 /* TabBarModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		449DCDFA1DDA7D4D0007E6C4 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				449DCDFB1DDA7D4D0007E6C4 /* TabBarModuleWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		449DCE141DDA7D720007E6C4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				449DCE1C1DDA7DF60007E6C4 /* Protocols */,
+				449DCE151DDA7D780007E6C4 /* Wireframe */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		449DCE151DDA7D780007E6C4 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				449DCE1A1DDA7DCB0007E6C4 /* RootWireframe.swift */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		449DCE1C1DDA7DF60007E6C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				449DCE1D1DDA7E060007E6C4 /* TabBarViewProtocol.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +334,7 @@
 				TargetAttributes = {
 					449DCDB11DDA756C0007E6C4 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L72B95U3L8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +375,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441ED5211DDB441C00B7309D /* SecondModuleWireFrame.swift in Sources */,
+				441ED5201DDB43EF00B7309D /* TabBarModuleView.swift in Sources */,
+				441ED51F1DDB43D300B7309D /* TabBarModuleWireFrame.swift in Sources */,
+				449DCE1E1DDA7E060007E6C4 /* TabBarViewProtocol.swift in Sources */,
+				449DCE171DDA7D8F0007E6C4 /* AppDependencies.swift in Sources */,
+				449DCE0E1DDA7D4D0007E6C4 /* TabBarModuleInteractor.swift in Sources */,
+				449DCE011DDA7D4D0007E6C4 /* FirstModuleProtocols.swift in Sources */,
+				449DCE0A1DDA7D4D0007E6C4 /* SecondModuleView.swift in Sources */,
+				449DCE111DDA7D4D0007E6C4 /* TabBarModuleProtocols.swift in Sources */,
+				449DCE061DDA7D4D0007E6C4 /* SecondModuleInteractor.swift in Sources */,
 				449DCDB81DDA756C0007E6C4 /* ViewController.swift in Sources */,
+				449DCE1B1DDA7DCB0007E6C4 /* RootWireframe.swift in Sources */,
 				449DCDB61DDA756C0007E6C4 /* AppDelegate.swift in Sources */,
+				449DCE001DDA7D4D0007E6C4 /* FirstModulePresenter.swift in Sources */,
+				449DCE091DDA7D4D0007E6C4 /* SecondModule#Protocols.swift in Sources */,
+				449DCE081DDA7D4D0007E6C4 /* SecondModulePresenter.swift in Sources */,
+				449DCDFE1DDA7D4D0007E6C4 /* FirstModuleInteractor.swift in Sources */,
+				449DCE021DDA7D4D0007E6C4 /* FirstModuleView.swift in Sources */,
+				449DCE031DDA7D4D0007E6C4 /* FirstModuleWireFrame.swift in Sources */,
+				449DCE101DDA7D4D0007E6C4 /* TabBarModulePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L72B95U3L8;
 				INFOPLIST_FILE = VIPERTabs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simapps.VIPERTabs;
@@ -270,10 +528,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L72B95U3L8;
 				INFOPLIST_FILE = VIPERTabs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simapps.VIPERTabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +557,7 @@
 				449DCDC61DDA756C0007E6C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
